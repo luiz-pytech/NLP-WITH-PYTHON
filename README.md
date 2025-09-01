@@ -1,7 +1,5 @@
 # NLP WITH PYTHON: Challenges and Studies
 
-![Banner NLP](https://user-images.githubusercontent.com/11280273/198124119-e33a18f4-a4f6-4993-9791-a1827b58b4f1.png)
-
 ## 📖 About The Project
 
 This repository was created as a practical study project to consolidate the knowledge acquired in a **Natural Language Processing (NLP)** course, inspired by the DataCamp learning track. The goal is to practically apply the main techniques and tools of the NLP ecosystem in Python, from fundamental text manipulation to the implementation of advanced models with the Hugging Face `transformers` library.
@@ -23,26 +21,40 @@ The journey through this repository covers the essential pillars of Natural Lang
 4.  **Token Classification and Text Generation:** Modern applications such as **Named Entity Recognition (NER)**, Part-of-Speech (PoS) tagging, **automatic summarization**, **translation**, and **text generation**, also using Hugging Face pipelines.
 
 ---
+## 📊 Dataset Used
 
+For the exploration and development of the notebooks in this project, the **Olist Public E-commerce Dataset** was used.
+
+This is a real, anonymized dataset containing information on over 100,000 orders placed at various marketplaces in Brazil between 2016 and 2018. The richness of its textual data, such as customer reviews and product descriptions, makes it an ideal dataset for Natural Language Processing (NLP) studies and applications.
+
+➡️ **Link to the dataset:** [Brazilian E-Commerce Public Dataset by Olist on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+---
 ## 📂 Repository Structure
 
 The project is organized into directories, with each one corresponding to a study module:
-
+```
 /NLP_WITH_PYTHON
-|
-|-- 01_fundamentals_and_words_processing/
-|   |-- 01_tokenization.ipynb
-|   |-- 02_clearning_and_normalization.ipynb
-|   -- 03_stemming_and_lemmatization.ipynb | |-- 02_feature_extraction/ |   |-- 01_bag_of_words.ipynb |   |-- 02_TF_IDF.ipynb |   -- 03_words_embeddings.ipynb
-|
-|-- 03_classification_with_HuggingFace/
-|   |-- 01_sentimental_analysis.ipynb
-|   |-- 02_zero_shot_classification.ipynb
-|   -- 03_similiraty_and_grammar.ipynb | |-- 04_tokens_and_text_generation/ |   |-- 01_recognition_of_named_entity_NER.ipynb |   |-- 02_text_summary.ipynb |   |-- 03_automatic_translation.ipynb |   -- 04_simple_autocomplete_system.ipynb
-|
-|-- README.md
-`-- requirements.txt
-
+├── 01_fundamentals_and_words_processing/
+│   ├── 01_tokenization.ipynb
+│   ├── 02_cleaning_and_normalization.ipynb
+│   └── 03_stemming_and_lemmatization.ipynb
+├── 02_feature_extraction/
+│   ├── 01_bag_of_words.ipynb
+│   ├── 02_TF_IDF.ipynb
+│   └── 03_words_embeddings.ipynb
+├── 03_classification_with_HuggingFace/
+│   ├── 01_sentimental_analysis.ipynb
+│   ├── 02_zero_shot_classification.ipynb
+│   └── 03_similarity_and_grammar.ipynb
+├── 04_tokens_and_text_generation/
+│   ├── 01_recognition_of_named_entity_NER.ipynb
+│   ├── 02_text_summary.ipynb
+│   ├── 03_automatic_translation.ipynb
+│   └── 04_simple_autocomplete_system.ipynb
+├── README.md
+└── requirements.txt
+```
 ---
 
 ## 🛠️ Technologies and Libraries
