@@ -100,6 +100,7 @@ To explore this repository:
 4.  **Explore the notebooks:** Open the notebooks in each folder to see the challenges and my solutions. Feel free to run the code and experiment with your own texts!
 
 ---
+*frequency_words.ipynb is the resolution question of data science IMD for analysis sentimentals*
 
 ## ✍️ Author
 
